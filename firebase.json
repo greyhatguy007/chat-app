@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "chat-app-greyhatguy007",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
